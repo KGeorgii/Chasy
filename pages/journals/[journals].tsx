@@ -90,6 +90,7 @@ export default function Journals() {
         <ul className={styles.navList}>
           <li className={styles.navItem}><Link href="/">Main</Link></li>
           <li className={styles.navItem}><Link href="/search">Search</Link></li>
+          <li className={styles.navItem}><Link href="/visualizations">Visualizations</Link></li>
           <li className={styles.navItem}><Link href="/ai_chat">AI chat</Link></li>
           <li className={styles.navItem}><Link href="/about">About</Link></li>
         </ul>
