@@ -14,7 +14,7 @@ interface Journal {
   journal_number: number;
 }
 
-const CSV_URL = 'https://raw.githubusercontent.com/KGeorgii/vsesvit/refs/heads/main/vsesvit_test_2.csv'; // <-- Replace with your actual CSV URL
+const CSV_URL = 'https://raw.githubusercontent.com/KGeorgii/Chasy_data/refs/heads/main/chasy_git.csv'; // <-- Replace with your actual CSV URL
 
 export default function Home() {
   const [journals, setJournals] = useState<Journal[]>([]);
