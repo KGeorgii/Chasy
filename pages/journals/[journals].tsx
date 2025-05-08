@@ -19,7 +19,7 @@ interface Journal {
   journal_number: string;
 }
 
-const CSV_URL = '/data/data_2.csv';
+const CSV_URL = 'https://raw.githubusercontent.com/KGeorgii/Chasy_data/refs/heads/main/chasy_git.csv';
 
 export default function Journals() {
   const [journalDetails, setJournalDetails] = useState<Journal[]>([]);
