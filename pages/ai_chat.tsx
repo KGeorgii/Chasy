@@ -13,7 +13,7 @@ import { Bar, Pie, Line } from 'react-chartjs-2';
 // Register Chart.js components
 ChartJS.register(ArcElement, CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend, PointElement, LineElement);
 
-const CSV_URL = '/data/data_2.csv';
+const CSV_URL = 'https://raw.githubusercontent.com/KGeorgii/Chasy_data/refs/heads/main/chasy_git.csv';
 
 // Define the type for journal entries
 interface JournalEntry {
